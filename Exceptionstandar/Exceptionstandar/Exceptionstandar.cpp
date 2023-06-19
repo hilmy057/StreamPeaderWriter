@@ -12,9 +12,12 @@ int main()
 		array<int, 3> data = { 1, 2, 3 };
 
 	}
-	catch (exception $e) {
+	catch (exception &e) {
 		cout << e.what() << endl;
 	}
+	cout << "Baris program yang terakhir" << endl;
+
+	return 0;
 }
 
 	
