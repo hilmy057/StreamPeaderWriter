@@ -14,7 +14,11 @@ int main() {
 
 	outfile.open(NamaFile, ios::out);
 
-	cout << ">= Menulis file,
+	cout << ">= "Menulis file, \'q' untuk keluar " << endl;
+
+		while () {
+			cout <<""
+ }
 }
 
  
